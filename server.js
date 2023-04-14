@@ -18,7 +18,7 @@ app.use(cookieParser());
 app.use(express.urlencoded({extended: false}));
 app.use(bodyParser.json());
 app.use(cors({
-    origin: ["http://localhost:3000", "https://pinvent-app-antoalex07.onrender.com/"],
+    origin: ["http://localhost:3000", "https://pinvent-app-antoalex07.onrender.com"],
     credentials: true
 }));
 
